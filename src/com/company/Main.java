@@ -17,7 +17,7 @@ public class Main {
         String znak = odczyt.nextLine();
         System.out.println("Podaj 2 liczbe");
         b = odczyt.nextDouble();
-                switch(znak){
+        switch(znak){
             case "+":
                 System.out.println("a+b= "+(a+b));
                 break;
