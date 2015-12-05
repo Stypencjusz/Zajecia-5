@@ -17,21 +17,21 @@ public class Main {
         String znak = odczyt.nextLine();
         System.out.println("Podaj 2 liczbe");
         b = odczyt.nextDouble();
-        switch(znak){
+        switch (znak) {
             case "+":
-                System.out.println("a+b= "+(a+b));
+                System.out.println("a+b= " + (a + b));
                 break;
             case "-":
-                System.out.println("a-b= "+(a-b));
+                System.out.println("a-b= " + (a - b));
                 break;
             case "*":
-                System.out.println("a+b= "+(a*b));
+                System.out.println("a+b= " + (a * b));
                 break;
             case "/":
-                if (b==0)
+                if (b == 0)
                     System.out.println("Podales druga liczbe zero");
                 else
-                    System.out.println("a/b= "+(a/b));
+                    System.out.println("a/b= " + (a / b));
                 break;
             default:
                 System.out.println("Podales niedozwolone dzialanie");
